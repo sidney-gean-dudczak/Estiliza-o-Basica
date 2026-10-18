@@ -4,7 +4,7 @@ let tamanhoMain = 800;
 let main = document.querySelector("main");
 
 function aumentarFonte() {
-    // Só aumenta se for menor que o limite de 150%
+  
     if (tamanhoFonte < 150) {
         tamanhoFonte += 10;
         document.body.style.fontSize = tamanhoFonte + "%";
@@ -14,7 +14,7 @@ function aumentarFonte() {
 }
 
 function diminuirFonte() {
-    // Só diminui se for maior que o limite de 70%
+    
     if (tamanhoFonte > 70) {
         tamanhoFonte -= 10;
         document.body.style.fontSize = tamanhoFonte + "%";
@@ -26,7 +26,7 @@ function diminuirFonte() {
     }
 }
 
-// Ativa o alto contraste alternando a sua classe original no body
+
 function alternarContraste() {
     document.body.classList.toggle("alto-contraste");
 }
