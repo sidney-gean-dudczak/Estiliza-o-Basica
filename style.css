@@ -1,4 +1,7 @@
-/* Estilos gerais */
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --principal: black;
     --secundaria: red;
